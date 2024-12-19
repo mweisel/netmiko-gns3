@@ -1,0 +1,10 @@
+---
+- host: R1
+  ip: "gns3.orb.local"
+  port: 5000
+  device_type: cisco_ios_telnet
+- host: R2
+  ip: "gns3.orb.local"
+  port: 5001
+  device_type: cisco_ios_telnet
+  default_enter: "\n" # IOL
